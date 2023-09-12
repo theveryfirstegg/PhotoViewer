@@ -1,0 +1,67 @@
+
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Photo Viewer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1><u><b>Photo Viewer</b></u></h1>
+
+    <img id="image_slideshow" src="InitialImage.jpg" width="450rem" height="300rem">
+
+    <div id="Status">
+        <fieldset>
+            <legend><b> Status </b></legend>
+                Photo Being Displayed: <input type="text" id="PhotoDisplayed">
+
+               <p id="changing_text"> Photo Viewer System </p> 
+
+
+        </fieldset>
+
+    </div>
+
+    <div id="LoadingImages">
+        <fieldset>
+            <legend><b>Loading Images (Local Folder) </b></legend>
+
+            Photos' Folder: <input type="text" id="photo_folder">   Common Name: <input type="text" id="common_name"> <br>
+
+            Start Photo Number: <input type="text" id="start_number">    End Photo Number: <input type="text" id="end_number">
+
+            <input type="button" id="load_photos" value="Load Photos">
+
+        </fieldset>
+
+
+    </div>
+
+    <div id="Loading Images (JSON File)">
+        <fieldset>
+            <legend><b> Loading Image (JSON File) </b></legend>
+
+            URL: <input type="text" id="json_url"> <input type="button" id="load_json" value="Load JSON">
+
+        </fieldset>
+
+    </div>
+
+
+    <script src="code.js"></script>
+
+</body>
+
+
+
+
+
+
+
+
+
+
+</html>
